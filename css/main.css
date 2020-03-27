@@ -1,0 +1,518 @@
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+
+h2, h3 {
+  font: medium Roboto, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-size: 65px;
+}
+
+h3 {
+  font-size: 35px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  background: #fff;
+  max-width: 1920px;
+  margin: 0px auto;
+}
+
+.wrapper header {
+  height: 100vh;
+  background: url("../img/scale_1200.webp") center top no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: column nowrap;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wrapper header .topContent {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0% 30px;
+}
+
+.wrapper header .topContent .logo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 230px;
+}
+
+.wrapper header .topContent .logo img {
+  width: 50px;
+}
+
+.wrapper header .topContent .logo p {
+  color: #ddd;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.wrapper header .topContent nav {
+  min-width: 450px;
+}
+
+.wrapper header .topContent nav #iconMenu .iconMenuA {
+  display: none;
+}
+
+.wrapper header .topContent nav #iconMenu ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wrapper header .topContent nav #iconMenu ul li a {
+  font-family: medium Roboto, sans-serif;
+  color: #fff;
+  font-size: 17px;
+  padding: 0 15px 15px 15px;
+}
+
+.wrapper header .topContent nav #iconMenu ul li a:hover {
+  border-bottom: 4px solid #fff;
+}
+
+.wrapper header .service {
+  padding: 0 6% 30px 6%;
+}
+
+.wrapper header .service p {
+  font-weight: 600;
+  color: #fff;
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.wrapper header .service .buttonHeader {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row no-wrap;
+      -ms-flex-flow: row no-wrap;
+          flex-flow: row no-wrap;
+  max-width: 400px;
+}
+
+.wrapper header .service .buttonHeader .buttonWhyUs div, .wrapper header .service .buttonHeader .buttonContactUs div {
+  font-size: 12px;
+  padding: 10px 20px;
+  width: 150px;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.wrapper header .service .buttonHeader .buttonWhyUs {
+  background: #2000c2;
+  color: #fff;
+  font-family: medium Roboto, sans-serif;
+}
+
+.wrapper header .service .buttonHeader .buttonWhyUs:hover {
+  background: #14007a;
+}
+
+.wrapper header .service .buttonHeader .buttonContactUs {
+  background: #fff;
+  color: #000;
+  font-family: medium Roboto, sans-serif;
+}
+
+.wrapper header .service .buttonHeader .buttonContactUs:hover {
+  background: #2000c2;
+  color: #fff;
+}
+
+.wrapper main .ourServicesContenir ul {
+  margin-top: 30px;
+}
+
+.wrapper main .ourServicesContenir ul li {
+  font: regular Roboto, sans-serif;
+  font-size: 15px;
+  background: url("../img/icons820.png") left center no-repeat;
+  padding-left: 25px;
+  margin-bottom: 10px;
+}
+
+.wrapper main .ourServicesContenir .ourServices {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 70px;
+}
+
+.wrapper main .whyUs {
+  background: #191919;
+  color: #fff;
+}
+
+.wrapper main .whyUs .professionalItems {
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.wrapper main .whyUs .professionalItems .items {
+  margin-top: 15px;
+  min-width: 400px;
+}
+
+.wrapper main .whyUs .professionalItems .items li {
+  font: regular Roboto, sans-serif;
+  font-size: 15px;
+  margin-bottom: 20px;
+  padding-bottom: 7px;
+  padding-left: 40px;
+  border-bottom: 1px solid #525252;
+  background: url("../img/1486395886-checkmark_80611 (1).png") left top no-repeat;
+}
+
+.wrapper main .whyUs .professionalItems .textAboutUs {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 700px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  padding-left: 20px;
+}
+
+.wrapper main .whyUs .professionalItems .textAboutUs h3 {
+  width: 100%;
+  margin: 0 0;
+}
+
+.wrapper main .whyUs .professionalItems .textAboutUs p {
+  font-size: 1em;
+  max-width: 500px;
+  margin-top: 20px;
+}
+
+.wrapper main .contact {
+  position: relative;
+  font: medium Roboto, sans-serif;
+  font-size: 25px;
+  color: #fff;
+}
+
+.wrapper main .contact h2 {
+  position: relative;
+  z-index: 1;
+}
+
+.wrapper main .contact .contactUs {
+  width: 320px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.wrapper main .contact .contactUs .phone {
+  color: #fff;
+  font-size: 30px;
+  background: url("../img/iconmonstr-phone-thin-32.png") left top no-repeat;
+}
+
+.wrapper main .contact .bgColor {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background: #2000c2;
+  width: 50%;
+  height: 100%;
+}
+
+.wrapper main .contact .imgContact {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background: #2000c2;
+  background: url("../img/scale_1200 (1).webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper main .map {
+  width: 100%;
+}
+
+.wrapper main .map iframe {
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .wrapper h2 {
+    font-size: 50px;
+  }
+  .wrapper h3 {
+    font-size: 30px;
+  }
+  .wrapper header .topContent nav {
+    min-width: 400px;
+  }
+  .wrapper header .service p {
+    font-size: 45px;
+  }
+  main .ourServicesContenir .ourServices {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -webkit-align-content: center;
+        -ms-flex-line-pack: center;
+            align-content: center;
+  }
+  main .whyUs .content .professionalItems {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -webkit-align-content: center;
+        -ms-flex-line-pack: center;
+            align-content: center;
+  }
+  main .whyUs .content .professionalItems .textAboutUs {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 769px) {
+  .wrapper header .topContent nav {
+    min-width: 50px;
+  }
+  .wrapper header .topContent nav #iconMenu .iconMenuA {
+    display: block;
+  }
+  .wrapper header .topContent nav #iconMenu:hover li {
+    display: block;
+  }
+  .wrapper header .topContent nav #iconMenu ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    position: absolute;
+    right: 35px;
+    top: 70px;
+  }
+  .wrapper header .topContent nav #iconMenu ul li {
+    display: none;
+    background: #2000c2;
+    margin-top: 5px;
+    padding: 10px 50px;
+    min-width: 150px;
+    text-align: center;
+    border-bottom: 0.1px solid #FFF;
+  }
+  .wrapper header .topContent nav #iconMenu ul li:hover {
+    background: #14007a;
+  }
+  .wrapper header .topContent nav #iconMenu ul li a:hover {
+    border-bottom: none;
+  }
+}
+
+@media (max-width: 481px) {
+  .content {
+    padding: 80px 1%;
+  }
+  .wrapper {
+    min-width: 320px;
+  }
+  .wrapper h2 {
+    font-size: 40px;
+  }
+  .wrapper h3 {
+    font-size: 30px;
+  }
+  .wrapper header {
+    height: 100vh;
+  }
+  .wrapper header .topContent .logo {
+    min-width: 170px;
+  }
+  .wrapper header .topContent .logo img {
+    width: 40px;
+  }
+  .wrapper header .topContent .logo p {
+    font-size: 20px;
+  }
+  .wrapper header .service {
+    padding: 0 0% 30px 0%;
+  }
+  .wrapper header .service p {
+    font-size: 25px;
+  }
+  .wrapper header .service .buttonHeader .buttonWhyUs div, .wrapper header .service .buttonHeader .buttonContactUs div {
+    font-size: 12px;
+    padding: 10px 20px;
+    width: 150px;
+    text-align: center;
+    opacity: 0.8;
+  }
+  .wrapper main .whyUs .professionalItems .items {
+    margin-top: 15px;
+    min-width: 100%;
+  }
+  .wrapper main .whyUs .professionalItems .items li {
+    font: regular Roboto, sans-serif;
+    font-size: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 7px;
+    padding-left: 40px;
+    border-bottom: 1px solid #525252;
+    background: url("../img/1486395886-checkmark_80611 (1).png") left top no-repeat;
+  }
+  .wrapper main .whyUs .professionalItems .textAboutUs {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width: 700px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    padding-left: 20px;
+  }
+  .wrapper main .whyUs .professionalItems .textAboutUs h3 {
+    width: 100%;
+    margin: 0 0;
+  }
+  .wrapper main .whyUs .professionalItems .textAboutUs p {
+    font-size: 1em;
+    max-width: 500px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 382px) {
+  .wrapper header .service .buttonHeader .buttonWhyUs div, .wrapper header .service .buttonHeader .buttonContactUs div {
+    font-size: 12px;
+    padding: 10px 10px;
+    width: 130px;
+    text-align: center;
+    opacity: 0.8;
+  }
+}
